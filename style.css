@@ -1,0 +1,109 @@
+body{
+	background-color: whitesmoke;
+	font-family: Chalkduster, fantasy;
+	font-size: 16px;
+}
+
+h1{
+	color: #C42137;
+	font-weight: 100;
+	font-family: Chalkduster, fantasy;
+}
+ 
+h2{
+	color: #093919;
+	font-family: Chalkduster, fantasy;
+	font-weight: lighter;
+	font-size: 18px;
+}
+ 
+h3, h4, h5, h6, h7{
+	color: #D35863;
+	font-weight: 100
+	font-family: Chalkduster, fantasy;
+	font-size: 16px;
+}
+ 
+
+p{
+	color: black;
+}
+
+a{
+	color: #66757F;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 750px;
+	margin: auto;
+}
+
+@media (max-width:800px) {
+	.container{
+		width: 90%;
+	}
+}
+ 
+ @media (max-width:300px) {
+	.container{
+		width: 280px;
+	}
+}
+ 
+.card-white {
+	background-color: #F7E2C5;
+	padding: 40px;
+	box-shadow: 20px 20px 20px #FBE5CD;
+	border-radius: 4px;
+	margin: 40px 5px;
+	text-align: center;
+}
+ 
+.img-circle {
+	border-radius: 50%;
+}
+ 
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius:4px;
+ 
+}
+ 
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+ 
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	 
+}
+ 
+.list-inline>li{
+	display: inline;
+	padding: 10px;
+}
+ 
+.list-inline>i{
+	font-size: 50px;
+	color: black;
+}
+ 
+.list-inline i:hover{
+	color: black;
+}
+ 
+
+#introduction> p {
+	margin-bottom: 40px;
+}
+
+.images {
+	width: 50%;
+	height: 50%;
+}
